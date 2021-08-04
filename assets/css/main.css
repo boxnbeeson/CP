@@ -3893,3 +3893,15 @@ input, select, textarea {
 		height:260px !important;
 		width:480px !important;
 	}
+
+	/* Custom css */
+
+	.marginFix1 {
+		margin-top: -0.5rem;
+		margin-bottom: -0.55rem;
+	}
+
+	.marginFix2 {
+		margin-top: -1.5rem;
+		margin-bottom: -0.05rem;
+	}
