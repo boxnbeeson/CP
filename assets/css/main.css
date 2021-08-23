@@ -3029,6 +3029,7 @@ input, select, textarea {
 			-ms-justify-content: center;
 			justify-content: center;
 			width: 50em;
+			flex: auto;
 			-ms-flex: 1;
 		}
 
