@@ -3888,14 +3888,11 @@ input, select, textarea {
 			}
 
 		}
-	/* teamprofilegenerator static img css */
-	.tpgimg {
-		height:260px !important;
-		width:480px !important;
-	}
 
-	/* Custom css */
 
+/* Custom css */
+
+	/* Margin Fixes in about me */
 	.marginFix1 {
 		margin-top: -0.5rem;
 		margin-bottom: -0.55rem;
@@ -3905,3 +3902,45 @@ input, select, textarea {
 		margin-top: -1.5rem;
 		margin-bottom: -0.05rem;
 	}
+
+	/* Alignment in About Me */
+	.alignAM {
+		text-align: center;
+	}
+
+	.alignAM2 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: -2%;
+		margin-top: -2%;
+	}
+
+	/* Image Size Fix for mobile */
+	@media screen and (max-width: 715px) {
+		img {
+			width: 90% !important;
+			height: 90% !important;
+		}
+	}
+		/* teamprofilegenerator static img css */
+		.tpgimg {
+			height: 260px !important;
+			width: 480px !important;
+		}
+	
+		@media screen and (max-width: 715px) {
+			.tpgimg {
+				width: 90% !important;
+				height: 90% !important;
+			}
+		}
+	
+		/* Link Alignment for Projects in mobile */
+		@media screen and (max-width: 715px) {
+			.alignLinks{
+				margin-top: -10%;
+				margin-bottom: 15%;
+	
+			}
+		}
